@@ -1,0 +1,40 @@
+# Colcon / ROS 2 build artifacts
+build/
+install/
+log/
+
+# Solver build artifacts & generated libraries
+src/mpc_controller/src/build_solver/
+src/mpc_controller/src/install/
+src/mpc_controller/src/build_output.log
+
+# Lap test data and large evaluation files
+lap_tests/
+lap_tests.zip
+node_frames_mpc/
+*.bag
+*.db3
+
+# Compiled binaries and libraries
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db

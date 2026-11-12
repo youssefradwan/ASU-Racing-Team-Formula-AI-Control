@@ -1,0 +1,22 @@
+{
+  "description": "MPC cost function weights — racing line configuration",
+  "weight_state": 1.0,
+  "weight_control": 1.0,
+  "weight_slack": 1e9,
+  "ref_velocity": 4.0,
+  "ref_x": 0.0,
+  "ref_y": 0.0,
+  "q_c": 3000.0,
+  "q_c_N_mult": 3.0,
+  "q_l": 10.0,
+  "q_r": 50.0,
+  "q_r_N_mult": 2.0,
+  "q_vs": 250.0,
+  "q_mu": 1500.0,
+  "r_delta": 15,
+  "r_vs": 0.0,
+  "r_dD": 0.9,
+  "r_dDelta": 15.0,
+  "sc_quad_track": 1e8,
+  "sc_lin_track": 1e6
+}

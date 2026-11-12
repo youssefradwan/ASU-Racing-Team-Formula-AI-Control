@@ -1,0 +1,28 @@
+{
+  "_comment": "Edit this file to rename nodes, topics, or ROS runtime params without recompiling. Rebuild (colcon build) after changes.",
+
+  "node_names": {
+    "mpc_controller":    "mpc_controller",
+    "bicycle_simulator": "bicycle_simulator",
+    "mpc_visualizer":    "mpc_visualizer"
+  },
+
+  "topics": {
+    "odometry":           "/carmaker/Odometry",
+    "ackermann_cmd":      "/ackr",
+    "reference_path":     "/path",
+    "predicted_path":     "/mpc/predicted_path",
+    "track_markers":      "/mpc/track_markers",
+    "heading_arrow":      "/mpc/heading_arrow",
+    "vehicle_footprint":  "/mpc/vehicle_footprint",
+    "constraint_markers": "/mpc/constraint_markers",
+    "predicted_path_viz": "/mpc/predicted_path_viz"
+  },
+
+  "ros_params": {
+    "control_frequency":  20.0,
+    "sim_dt":             0.01,
+    "cone_spacing":       5,
+    "csv_output_path":    "/tmp/mpc_data.csv"
+  }
+}
